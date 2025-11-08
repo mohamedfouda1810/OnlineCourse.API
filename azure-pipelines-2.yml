@@ -1,0 +1,57 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  dotnetSDKVersion: '6.x'
+
+jobs:
+- job: Build
+  displayName: 'Build and Test'
+  strategy:
+    maxParallel: 1  # Correct way to limit parallelism
+  steps:
+  - task: UseDotNet@2
+    displayName: 'Use .NET SDK'
+    inputs:
+      packageType: 'sdk'
+      version: '$(dotnetSDKVersion)'
+
+  - task: NuGetToolInstaller@1
+    displayName: 'Install NuGet'
+
+  - task: NuGetCommand@2
+    displayName: 'Restore NuGet packages'
+    inputs:
+      restoreSolution: '$(solution)'
+
+  - task: VSBuild@1
+    displayName: 'Build solution'
+    inputs:
+      solution: '$(solution)'
+      msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
+      platform: '$(buildPlatform)'
+      configuration: '$(buildConfiguration)'
+      clean: true
+
+  - task: VSTest@2
+    displayName: 'Run tests'
+    inputs:
+      platform: '$(buildPlatform)'
+      configuration: '$(buildConfiguration)'
+      testSelector: 'testAssemblies'
+      testAssemblyVer2: |
+        **\*Tests.dll
+        **\*Test.dll
+      searchFolder: '$(System.DefaultWorkingDirectory)'
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish build artifacts'
+    inputs:
+      pathtoPublish: '$(build.artifactStagingDirectory)'
+      artifactName: 'drop'
