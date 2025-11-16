@@ -1,5 +1,93 @@
 [
   {
+    "ContainingType": "LSC.OnlineCourse.API.Controllers.CourseController",
+    "Method": "GetAllCoursesAsync",
+    "RelativePath": "api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LSC.OnlineCourse.API.Controllers.CourseController",
+    "Method": "GetCourseById",
+    "RelativePath": "api/Course/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LSC.OnlineCourse.API.Controllers.CourseController",
+    "Method": "GetAllCoursesByCategoryIdAsync",
+    "RelativePath": "api/Course/Category/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LSC.OnlineCourse.API.Controllers.CourseController",
+    "Method": "GetCourseDetailAsync",
+    "RelativePath": "api/Course/Detail/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineCourse.Core.Models.CourseDetailModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "OnlineCourse.API.Controllers.CourseCategoryController",
     "Method": "GetAll",
     "RelativePath": "api/CourseCategory",
