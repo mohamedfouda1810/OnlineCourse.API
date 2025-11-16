@@ -13,7 +13,6 @@ namespace OnlineCourse.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // إعداد Serilog من ملف الإعدادات
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(builder.Configuration)
                 .Enrich.FromLogContext()
@@ -70,19 +69,11 @@ namespace OnlineCourse.API
                     });
                 });
 
-                // ===== OPTION 1: Register Middlewares in DI (if using IMiddleware) =====
-                // Uncomment these if your middlewares implement IMiddleware interface:
-                // builder.Services.AddTransient<RequestBodyLoggingMiddleware>();
-                // builder.Services.AddTransient<ResponseBodyLoggingMiddleware>();
-
                 var app = builder.Build();
 
-                // Development settings
-                if (app.Environment.IsDevelopment())
-                {
-                    app.UseSwagger();
+                   app.UseSwagger();
                     app.UseSwaggerUI();
-                }
+            
 
                 app.UseHttpsRedirection();
                 app.UseCors("AllowAngularApp");
