@@ -1,53 +1,5 @@
 [
   {
-    "ContainingType": "OnlineCourse.API.Controllers.CourseController",
-    "Method": "GetAll",
-    "RelativePath": "api/Course",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "OnlineCourse.API.Controllers.CourseController",
-    "Method": "GetByCategory",
-    "RelativePath": "api/Course/Category/{categoryId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "OnlineCourse.API.Controllers.CourseController",
-    "Method": "Get",
-    "RelativePath": "api/Course/Detail/{courseId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "OnlineCourse.API.Controllers.CourseCategoryController",
     "Method": "GetAll",
     "RelativePath": "api/CourseCategory",
