@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineCourse.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e6e467cc526335abb6969e76e810d42fd03f6ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80322a135c8727912aa2ef109e73c62d499141a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineCourse.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineCourse.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
