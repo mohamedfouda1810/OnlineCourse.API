@@ -1,0 +1,571 @@
+2025-11-08 02:44:02.533 +02:00 [INF] Starting up
+2025-11-08 02:44:02.916 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:44:08.708 +02:00 [INF] Starting up
+2025-11-08 02:44:09.093 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:44:38.573 +02:00 [INF] Starting up
+2025-11-08 02:44:38.952 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:45:00.469 +02:00 [INF] Starting up
+2025-11-08 02:45:00.847 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:45:10.377 +02:00 [INF] Starting up
+2025-11-08 02:45:10.784 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:45:19.733 +02:00 [INF] Starting up
+2025-11-08 02:45:20.158 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:45:35.115 +02:00 [INF] Starting up
+2025-11-08 02:45:35.521 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:47:16.387 +02:00 [INF] Starting up
+2025-11-08 02:47:16.775 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:47:20.010 +02:00 [INF] Starting up
+2025-11-08 02:47:20.404 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:47:24.176 +02:00 [INF] Starting up
+2025-11-08 02:47:24.575 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:47:35.232 +02:00 [INF] Starting up
+2025-11-08 02:47:35.639 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:47:57.069 +02:00 [INF] Starting up
+2025-11-08 02:47:57.425 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:49:29.578 +02:00 [INF] Starting up
+2025-11-08 02:49:29.998 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:50:02.580 +02:00 [INF] Starting up
+2025-11-08 02:50:03.124 +02:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware Lifetime: Transient ImplementationType: OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware': Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Http.RequestDelegate' while attempting to activate 'OnlineCourse.API.Middlewares.RequestResponseLoggingMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at OnlineCourse.API.Program.Main(String[] args) in C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API\Program.cs:line 60
+2025-11-08 02:51:42.371 +02:00 [INF] Starting up
+2025-11-08 02:51:43.082 +02:00 [INF] Now listening on: https://localhost:7274
+2025-11-08 02:51:43.086 +02:00 [INF] Now listening on: http://localhost:5069
+2025-11-08 02:51:43.120 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 02:51:43.122 +02:00 [INF] Hosting environment: Development
+2025-11-08 02:51:43.124 +02:00 [INF] Content root path: C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API
+2025-11-08 02:51:44.187 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/index.html - null null
+2025-11-08 02:51:44.359 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/index.html - 200 null text/html;charset=utf-8 176.6066ms
+2025-11-08 02:51:44.520 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-08 02:51:44.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 10.8328ms
+2025-11-08 02:51:44.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - null null
+2025-11-08 02:51:44.653 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.2571ms
+2025-11-08 02:51:44.684 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - null null
+2025-11-08 02:51:44.689 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6521ms
+2025-11-08 02:51:51.491 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course - null null
+2025-11-08 02:51:51.523 +02:00 [INF] Request: GET /api/Course
+2025-11-08 02:51:51.535 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API)'
+2025-11-08 02:51:51.588 +02:00 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32]) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:51:57.922 +02:00 [INF] Executed DbCommand (1,491ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId], [c0].[CategoryName], [c0].[Description], (
+    SELECT COUNT(*)
+    FROM [Review] AS [r]
+    WHERE [c].[CourseId] = [r].[CourseId]) AS [TotalRatings], CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Review] AS [r0]
+        WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+        SELECT AVG(CAST([r1].[Rating] AS float))
+        FROM [Review] AS [r1]
+        WHERE [c].[CourseId] = [r1].[CourseId]))
+    ELSE 0.0
+END AS [AverageRating]
+FROM [Course] AS [c]
+INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+2025-11-08 02:51:58.011 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-08 02:51:58.054 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API) in 6454.3566ms
+2025-11-08 02:51:58.058 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API)'
+2025-11-08 02:51:58.064 +02:00 [INF] Response: 200: [{"courseId":1,"title":"Angular Full Course","description":"Comprehensive course covering Angular from basics to advanced topics.","price":199.99,"courseType":"Online","seatsAvailable":50,"duration":40.50,"categoryId":1,"instructorId":1,"startDate":"2024-09-01T00:00:00","endDate":"2024-09-30T00:00:00","category":{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},"userRating":{"courseId":1,"totalRatings":1,"averageRating":5.00}},{"courseId":2,"title":"Introduction to Data Science","description":"Learn the fundamentals of data science with hands-on examples.","price":149.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":2,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":2,"totalRatings":1,"averageRating":4.00}},{"courseId":3,"title":"Graphic Design Mastery","description":"Master the art of graphic design with practical projects.","price":129.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":3,"totalRatings":1,"averageRating":5.00}},{"courseId":4,"title":"Full Stack Web Development","description":"Learn to build web applications from scratch using modern technologies.","price":249.99,"courseType":"Online","seatsAvailable":40,"duration":50.00,"categoryId":4,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":4,"categoryName":"Web Development","description":"Courses focusing on front-end and back-end web development."},"userRating":{"courseId":4,"totalRatings":1,"averageRating":5.00}},{"courseId":5,"title":"Ethical Hacking Basics","description":"Introduction to ethical hacking and cybersecurity fundamentals.","price":199.99,"courseType":"Online","seatsAvailable":35,"duration":40.00,"categoryId":5,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":5,"categoryName":"Cybersecurity","description":"Courses covering security practices and ethical hacking."},"userRating":{"courseId":5,"totalRatings":1,"averageRating":4.00}},{"courseId":6,"title":"Agile Project Management","description":"Master the principles of Agile and Scrum.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":6,"instructorId":2,"startDate":null,"endDate":null,"category":{"categoryId":6,"categoryName":"Project Management","description":"Courses on managing projects, teams, and resources effectively."},"userRating":{"courseId":6,"totalRatings":1,"averageRating":5.00}},{"courseId":7,"title":"Digital Marketing Mastery","description":"Become an expert in digital marketing with this comprehensive course.","price":219.99,"courseType":"Online","seatsAvailable":30,"duration":35.00,"categoryId":7,"instructorId":3,"startDate":"2024-11-01T00:00:00","endDate":"2024-12-01T00:00:00","category":{"categoryId":7,"categoryName":"Marketing","description":"Courses focused on digital marketing, SEO, and social media marketing."},"userRating":{"courseId":7,"totalRatings":1,"averageRating":5.00}},{"courseId":8,"title":"Personal Finance Essentials","description":"Learn how to manage your finances and make smart investments.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":8,"instructorId":3,"startDate":null,"endDate":null,"category":{"categoryId":8,"categoryName":"Finance","description":"Courses covering investment, personal finance, and accounting."},"userRating":{"courseId":8,"totalRatings":1,"averageRating":4.00}},{"courseId":9,"title":"Yoga for Beginners","description":"Start your journey to physical and mental wellness with yoga.","price":99.99,"courseType":"Online","seatsAvailable":20,"duration":15.00,"categoryId":9,"instructorId":3,"startDate":"2024-11-01T00:00:00","endDate":"2024-11-15T00:00:00","category":{"categoryId":9,"categoryName":"Health & Fitness","description":"Courses on physical fitness, mental well-being, and nutrition."},"userRating":{"courseId":9,"totalRatings":1,"averageRating":5.00}},{"courseId":10,"title":"Full Stack Web Development","description":"Learn to build complete web applications using HTML, CSS, JavaScript, and backend technologies.","price":249.99,"courseType":"Online","seatsAvailable":75,"duration":60.00,"categoryId":1,"instructorId":1,"startDate":"2024-10-01T00:00:00","endDate":"2024-12-01T00:00:00","category":{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},"userRating":{"courseId":10,"totalRatings":0,"averageRating":0.00}},{"courseId":11,"title":"Advanced Data Science Techniques","description":"Dive deep into advanced techniques in data science, including deep learning and AI.","price":299.99,"courseType":"Online","seatsAvailable":50,"duration":45.00,"categoryId":2,"instructorId":1,"startDate":"2024-11-01T00:00:00","endDate":"2024-12-31T00:00:00","category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":11,"totalRatings":0,"averageRating":0.00}},{"courseId":12,"title":"UI/UX Design Fundamentals","description":"Learn the essentials of user interface and user experience design.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":3,"instructorId":1,"startDate":"2024-10-15T00:00:00","endDate":"2024-11-15T00:00:00","category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":12,"totalRatings":0,"averageRating":0.00}},{"courseId":13,"title":"Python for Data Analysis","description":"Learn how to use Python for data analysis, visualization, and statistical modeling.","price":159.99,"courseType":"Online","seatsAvailable":60,"duration":35.00,"categoryId":2,"instructorId":1,"startDate":"2024-09-15T00:00:00","endDate":"2024-10-15T00:00:00","category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":13,"totalRatings":0,"averageRating":0.00}},{"courseId":14,"title":"Digital Marketing Masterclass","description":"Comprehensive guide to mastering digital marketing strategies.","price":199.99,"courseType":"Online","seatsAvailable":40,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":"2024-12-01T00:00:00","endDate":"2024-12-31T00:00:00","category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":14,"totalRatings":0,"averageRating":0.00}}]
+2025-11-08 02:51:58.092 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course - 200 null application/json; charset=utf-8 6600.7262ms
+2025-11-08 02:52:12.671 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course/Category/5 - null null
+2025-11-08 02:52:12.679 +02:00 [INF] Request: GET /api/Course/Category/5
+2025-11-08 02:52:12.681 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.GetByCategory (OnlineCourse.API)'
+2025-11-08 02:52:12.693 +02:00 [INF] Route matched with {action = "GetByCategory", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByCategory(Int32) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:52:13.014 +02:00 [INF] Executed DbCommand (255ms) [Parameters=[@__categoryId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId], [c0].[CategoryName], [c0].[Description], (
+    SELECT COUNT(*)
+    FROM [Review] AS [r]
+    WHERE [c].[CourseId] = [r].[CourseId]) AS [TotalRatings], CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Review] AS [r0]
+        WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+        SELECT AVG(CAST([r1].[Rating] AS float))
+        FROM [Review] AS [r1]
+        WHERE [c].[CourseId] = [r1].[CourseId]))
+    ELSE 0.0
+END AS [AverageRating]
+FROM [Course] AS [c]
+INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+WHERE [c].[CategoryId] = @__categoryId_Value_0
+2025-11-08 02:52:13.021 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-08 02:52:13.025 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.GetByCategory (OnlineCourse.API) in 329.6724ms
+2025-11-08 02:52:13.028 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.GetByCategory (OnlineCourse.API)'
+2025-11-08 02:52:13.031 +02:00 [INF] Response: 200: [{"courseId":5,"title":"Ethical Hacking Basics","description":"Introduction to ethical hacking and cybersecurity fundamentals.","price":199.99,"courseType":"Online","seatsAvailable":35,"duration":40.00,"categoryId":5,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":5,"categoryName":"Cybersecurity","description":"Courses covering security practices and ethical hacking."},"userRating":{"courseId":5,"totalRatings":1,"averageRating":4.00}}]
+2025-11-08 02:52:13.034 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course/Category/5 - 200 null application/json; charset=utf-8 363.3819ms
+2025-11-08 02:52:21.316 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course/Detail/2 - null null
+2025-11-08 02:52:21.323 +02:00 [INF] Request: GET /api/Course/Detail/2
+2025-11-08 02:52:21.326 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.Get (OnlineCourse.API)'
+2025-11-08 02:52:21.345 +02:00 [INF] Route matched with {action = "Get", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:52:21.532 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-08 02:52:21.708 +02:00 [INF] Executed DbCommand (122ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CourseId], [t].[Title], [t].[Description], [t].[Price], [t].[CourseType], [t].[SeatsAvailable], [t].[Duration], [t].[CategoryId], [t].[InstructorId], [t].[StartDate], [t].[EndDate], [t].[CategoryId0], [t].[CategoryName], [t].[Description0], [s].[SessionId], [s].[CourseId], [s].[Title], [s].[Description], [s].[VideoUrl], [s].[VideoOrder], [t0].[CourseId], [t0].[UserName], [t0].[Comments], [t0].[Rating], [t0].[ReviewDate], [t0].[ReviewId], [t0].[UserId], [t].[c], [t].[c0]
+FROM (
+    SELECT TOP(1) [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId] AS [CategoryId0], [c0].[CategoryName], [c0].[Description] AS [Description0], (
+        SELECT COUNT(*)
+        FROM [Review] AS [r]
+        WHERE [c].[CourseId] = [r].[CourseId]) AS [c], CASE
+        WHEN EXISTS (
+            SELECT 1
+            FROM [Review] AS [r0]
+            WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+            SELECT AVG(CAST([r1].[Rating] AS float))
+            FROM [Review] AS [r1]
+            WHERE [c].[CourseId] = [r1].[CourseId]))
+        ELSE 0.0
+    END AS [c0]
+    FROM [Course] AS [c]
+    INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+    WHERE [c].[CourseId] = @__courseId_0
+) AS [t]
+LEFT JOIN [SessionDetails] AS [s] ON [t].[CourseId] = [s].[CourseId]
+OUTER APPLY (
+    SELECT [t1].[CourseId], [u].[DisplayName] AS [UserName], [t1].[Comments], [t1].[Rating], [t1].[ReviewDate], [t1].[ReviewId], [u].[UserId]
+    FROM (
+        SELECT TOP(10) [r2].[ReviewId], [r2].[Comments], [r2].[CourseId], [r2].[Rating], [r2].[ReviewDate], [r2].[UserId]
+        FROM [Review] AS [r2]
+        WHERE [t].[CourseId] = [r2].[CourseId]
+        ORDER BY [r2].[Rating] DESC
+    ) AS [t1]
+    INNER JOIN [UserProfile] AS [u] ON [t1].[UserId] = [u].[UserId]
+) AS [t0]
+ORDER BY [t].[CourseId], [t].[CategoryId0], [s].[VideoOrder], [s].[SessionId], [t0].[Rating] DESC, [t0].[ReviewId]
+2025-11-08 02:52:21.735 +02:00 [INF] Executing OkObjectResult, writing value of type 'OnlineCourse.Core.Models.CourseDetailModel'.
+2025-11-08 02:52:21.757 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.Get (OnlineCourse.API) in 404.929ms
+2025-11-08 02:52:21.762 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.Get (OnlineCourse.API)'
+2025-11-08 02:52:21.765 +02:00 [INF] Response: 200: {"sessionDetails":[{"sessionId":5,"courseId":2,"title":"Data Science Introduction","description":"Introduction to data science and its applications.","videoUrl":"https://www.youtube.com/watch?v=fqI0ToX1nDQ","videoOrder":1},{"sessionId":6,"courseId":2,"title":"Python for Data Science","description":"Using Python for data analysis and visualization.","videoUrl":"https://www.youtube.com/watch?v=fqI0ToX1nDQ","videoOrder":2},{"sessionId":7,"courseId":2,"title":"Machine Learning Basics","description":"Introduction to machine learning concepts.","videoUrl":"https://www.youtube.com/watch?v=fqI0ToX1nDQ","videoOrder":3}],"reviews":[{"courseId":2,"userName":"Alice Johnson","comments":"Great content, but could use more examples.","rating":4,"reviewDate":"2025-11-07T05:30:48.983"}],"courseId":2,"title":"Introduction to Data Science","description":"Learn the fundamentals of data science with hands-on examples.","price":149.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":2,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":2,"totalRatings":1,"averageRating":4.00}}
+2025-11-08 02:52:21.770 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course/Detail/2 - 200 null application/json; charset=utf-8 453.9709ms
+2025-11-08 02:52:28.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/CourseCategory - null null
+2025-11-08 02:52:28.816 +02:00 [INF] Request: GET /api/CourseCategory
+2025-11-08 02:52:28.820 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseCategoryController.GetAll (OnlineCourse.API)'
+2025-11-08 02:52:28.840 +02:00 [INF] Route matched with {action = "GetAll", controller = "CourseCategory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OnlineCourse.API.Controllers.CourseCategoryController (OnlineCourse.API).
+2025-11-08 02:52:29.008 +02:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [CourseCategory] AS [c]
+2025-11-08 02:52:29.159 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OnlineCourse.Core.Models.CourseCategoryModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-08 02:52:29.164 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseCategoryController.GetAll (OnlineCourse.API) in 320.4531ms
+2025-11-08 02:52:29.167 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseCategoryController.GetAll (OnlineCourse.API)'
+2025-11-08 02:52:29.169 +02:00 [INF] Response: 200: [{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},{"categoryId":4,"categoryName":"Web Development","description":"Courses focusing on front-end and back-end web development."},{"categoryId":5,"categoryName":"Cybersecurity","description":"Courses covering security practices and ethical hacking."},{"categoryId":6,"categoryName":"Project Management","description":"Courses on managing projects, teams, and resources effectively."},{"categoryId":7,"categoryName":"Marketing","description":"Courses focused on digital marketing, SEO, and social media marketing."},{"categoryId":8,"categoryName":"Finance","description":"Courses covering investment, personal finance, and accounting."},{"categoryId":9,"categoryName":"Health & Fitness","description":"Courses on physical fitness, mental well-being, and nutrition."}]
+2025-11-08 02:52:29.172 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/CourseCategory - 200 null application/json; charset=utf-8 359.9821ms
+2025-11-08 02:52:42.930 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/CourseCategory/1 - null null
+2025-11-08 02:52:42.936 +02:00 [INF] Request: GET /api/CourseCategory/1
+2025-11-08 02:52:42.944 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseCategoryController.Get (OnlineCourse.API)'
+2025-11-08 02:52:42.956 +02:00 [INF] Route matched with {action = "Get", controller = "CourseCategory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller OnlineCourse.API.Controllers.CourseCategoryController (OnlineCourse.API).
+2025-11-08 02:52:43.089 +02:00 [INF] Executed DbCommand (88ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CategoryId], [c].[CategoryName], [c].[Description]
+FROM [CourseCategory] AS [c]
+WHERE [c].[CategoryId] = @__p_0
+2025-11-08 02:52:43.095 +02:00 [INF] Executing OkObjectResult, writing value of type 'OnlineCourse.Core.Models.CourseCategoryModel'.
+2025-11-08 02:52:43.099 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseCategoryController.Get (OnlineCourse.API) in 137.7848ms
+2025-11-08 02:52:43.103 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseCategoryController.Get (OnlineCourse.API)'
+2025-11-08 02:52:43.105 +02:00 [INF] Response: 200: {"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."}
+2025-11-08 02:52:43.109 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/CourseCategory/1 - 200 null application/json; charset=utf-8 178.6619ms
+2025-11-08 02:53:14.905 +02:00 [INF] Starting up
+2025-11-08 02:53:15.606 +02:00 [INF] Now listening on: https://localhost:7274
+2025-11-08 02:53:15.611 +02:00 [INF] Now listening on: http://localhost:5069
+2025-11-08 02:53:15.653 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 02:53:15.655 +02:00 [INF] Hosting environment: Development
+2025-11-08 02:53:15.657 +02:00 [INF] Content root path: C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API
+2025-11-08 02:53:16.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/index.html - null null
+2025-11-08 02:53:16.464 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/index.html - 200 null text/html;charset=utf-8 168.6387ms
+2025-11-08 02:53:16.639 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-08 02:53:16.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 17.1455ms
+2025-11-08 02:53:16.680 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - null null
+2025-11-08 02:53:16.752 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.0829ms
+2025-11-08 02:53:16.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - null null
+2025-11-08 02:53:16.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.4662ms
+2025-11-08 02:53:42.825 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course - null null
+2025-11-08 02:53:42.843 +02:00 [INF] Request: GET /api/Course
+2025-11-08 02:53:42.847 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API)'
+2025-11-08 02:53:42.866 +02:00 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32]) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:53:44.777 +02:00 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId], [c0].[CategoryName], [c0].[Description], (
+    SELECT COUNT(*)
+    FROM [Review] AS [r]
+    WHERE [c].[CourseId] = [r].[CourseId]) AS [TotalRatings], CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Review] AS [r0]
+        WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+        SELECT AVG(CAST([r1].[Rating] AS float))
+        FROM [Review] AS [r1]
+        WHERE [c].[CourseId] = [r1].[CourseId]))
+    ELSE 0.0
+END AS [AverageRating]
+FROM [Course] AS [c]
+INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+2025-11-08 02:53:44.816 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-08 02:53:44.836 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API) in 1965.5015ms
+2025-11-08 02:53:44.839 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API)'
+2025-11-08 02:53:44.842 +02:00 [INF] Response: 200: [{"courseId":1,"title":"Angular Full Course","description":"Comprehensive course covering Angular from basics to advanced topics.","price":199.99,"courseType":"Online","seatsAvailable":50,"duration":40.50,"categoryId":1,"instructorId":1,"startDate":"2024-09-01T00:00:00","endDate":"2024-09-30T00:00:00","category":{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},"userRating":{"courseId":1,"totalRatings":1,"averageRating":5.00}},{"courseId":2,"title":"Introduction to Data Science","description":"Learn the fundamentals of data science with hands-on examples.","price":149.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":2,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":2,"totalRatings":1,"averageRating":4.00}},{"courseId":3,"title":"Graphic Design Mastery","description":"Master the art of graphic design with practical projects.","price":129.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":3,"totalRatings":1,"averageRating":5.00}},{"courseId":4,"title":"Full Stack Web Development","description":"Learn to build web applications from scratch using modern technologies.","price":249.99,"courseType":"Online","seatsAvailable":40,"duration":50.00,"categoryId":4,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":4,"categoryName":"Web Development","description":"Courses focusing on front-end and back-end web development."},"userRating":{"courseId":4,"totalRatings":1,"averageRating":5.00}},{"courseId":5,"title":"Ethical Hacking Basics","description":"Introduction to ethical hacking and cybersecurity fundamentals.","price":199.99,"courseType":"Online","seatsAvailable":35,"duration":40.00,"categoryId":5,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":5,"categoryName":"Cybersecurity","description":"Courses covering security practices and ethical hacking."},"userRating":{"courseId":5,"totalRatings":1,"averageRating":4.00}},{"courseId":6,"title":"Agile Project Management","description":"Master the principles of Agile and Scrum.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":6,"instructorId":2,"startDate":null,"endDate":null,"category":{"categoryId":6,"categoryName":"Project Management","description":"Courses on managing projects, teams, and resources effectively."},"userRating":{"courseId":6,"totalRatings":1,"averageRating":5.00}},{"courseId":7,"title":"Digital Marketing Mastery","description":"Become an expert in digital marketing with this comprehensive course.","price":219.99,"courseType":"Online","seatsAvailable":30,"duration":35.00,"categoryId":7,"instructorId":3,"startDate":"2024-11-01T00:00:00","endDate":"2024-12-01T00:00:00","category":{"categoryId":7,"categoryName":"Marketing","description":"Courses focused on digital marketing, SEO, and social media marketing."},"userRating":{"courseId":7,"totalRatings":1,"averageRating":5.00}},{"courseId":8,"title":"Personal Finance Essentials","description":"Learn how to manage your finances and make smart investments.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":8,"instructorId":3,"startDate":null,"endDate":null,"category":{"categoryId":8,"categoryName":"Finance","description":"Courses covering investment, personal finance, and accounting."},"userRating":{"courseId":8,"totalRatings":1,"averageRating":4.00}},{"courseId":9,"title":"Yoga for Beginners","description":"Start your journey to physical and mental wellness with yoga.","price":99.99,"courseType":"Online","seatsAvailable":20,"duration":15.00,"categoryId":9,"instructorId":3,"startDate":"2024-11-01T00:00:00","endDate":"2024-11-15T00:00:00","category":{"categoryId":9,"categoryName":"Health & Fitness","description":"Courses on physical fitness, mental well-being, and nutrition."},"userRating":{"courseId":9,"totalRatings":1,"averageRating":5.00}},{"courseId":10,"title":"Full Stack Web Development","description":"Learn to build complete web applications using HTML, CSS, JavaScript, and backend technologies.","price":249.99,"courseType":"Online","seatsAvailable":75,"duration":60.00,"categoryId":1,"instructorId":1,"startDate":"2024-10-01T00:00:00","endDate":"2024-12-01T00:00:00","category":{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},"userRating":{"courseId":10,"totalRatings":0,"averageRating":0.00}},{"courseId":11,"title":"Advanced Data Science Techniques","description":"Dive deep into advanced techniques in data science, including deep learning and AI.","price":299.99,"courseType":"Online","seatsAvailable":50,"duration":45.00,"categoryId":2,"instructorId":1,"startDate":"2024-11-01T00:00:00","endDate":"2024-12-31T00:00:00","category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":11,"totalRatings":0,"averageRating":0.00}},{"courseId":12,"title":"UI/UX Design Fundamentals","description":"Learn the essentials of user interface and user experience design.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":3,"instructorId":1,"startDate":"2024-10-15T00:00:00","endDate":"2024-11-15T00:00:00","category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":12,"totalRatings":0,"averageRating":0.00}},{"courseId":13,"title":"Python for Data Analysis","description":"Learn how to use Python for data analysis, visualization, and statistical modeling.","price":159.99,"courseType":"Online","seatsAvailable":60,"duration":35.00,"categoryId":2,"instructorId":1,"startDate":"2024-09-15T00:00:00","endDate":"2024-10-15T00:00:00","category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":13,"totalRatings":0,"averageRating":0.00}},{"courseId":14,"title":"Digital Marketing Masterclass","description":"Comprehensive guide to mastering digital marketing strategies.","price":199.99,"courseType":"Online","seatsAvailable":40,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":"2024-12-01T00:00:00","endDate":"2024-12-31T00:00:00","category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":14,"totalRatings":0,"averageRating":0.00}}]
+2025-11-08 02:53:44.861 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course - 200 null application/json; charset=utf-8 2036.5102ms
+2025-11-08 02:57:29.064 +02:00 [INF] Starting up
+2025-11-08 02:57:29.613 +02:00 [INF] Now listening on: https://localhost:7274
+2025-11-08 02:57:29.617 +02:00 [INF] Now listening on: http://localhost:5069
+2025-11-08 02:57:29.652 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 02:57:29.654 +02:00 [INF] Hosting environment: Development
+2025-11-08 02:57:29.656 +02:00 [INF] Content root path: C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API
+2025-11-08 02:57:30.427 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/index.html - null null
+2025-11-08 02:57:30.567 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/index.html - 200 null text/html;charset=utf-8 149.6039ms
+2025-11-08 02:57:30.759 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-08 02:57:30.771 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 11.6687ms
+2025-11-08 02:57:30.807 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - null null
+2025-11-08 02:57:30.864 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.2673ms
+2025-11-08 02:57:30.895 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - null null
+2025-11-08 02:57:30.902 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.0782ms
+2025-11-08 02:57:35.112 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course - null null
+2025-11-08 02:57:35.129 +02:00 [INF] Request: GET /api/Course
+2025-11-08 02:57:35.133 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API)'
+2025-11-08 02:57:35.151 +02:00 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.Nullable`1[System.Int32]) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:57:37.832 +02:00 [INF] Executed DbCommand (202ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId], [c0].[CategoryName], [c0].[Description], (
+    SELECT COUNT(*)
+    FROM [Review] AS [r]
+    WHERE [c].[CourseId] = [r].[CourseId]) AS [TotalRatings], CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Review] AS [r0]
+        WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+        SELECT AVG(CAST([r1].[Rating] AS float))
+        FROM [Review] AS [r1]
+        WHERE [c].[CourseId] = [r1].[CourseId]))
+    ELSE 0.0
+END AS [AverageRating]
+FROM [Course] AS [c]
+INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+2025-11-08 02:57:37.910 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-08 02:57:37.943 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API) in 2784.1859ms
+2025-11-08 02:57:37.947 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.GetAll (OnlineCourse.API)'
+2025-11-08 02:57:37.952 +02:00 [INF] Response: 200: [{"courseId":1,"title":"Angular Full Course","description":"Comprehensive course covering Angular from basics to advanced topics.","price":199.99,"courseType":"Online","seatsAvailable":50,"duration":40.50,"categoryId":1,"instructorId":1,"startDate":"2024-09-01T00:00:00","endDate":"2024-09-30T00:00:00","category":{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},"userRating":{"courseId":1,"totalRatings":1,"averageRating":5.00}},{"courseId":2,"title":"Introduction to Data Science","description":"Learn the fundamentals of data science with hands-on examples.","price":149.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":2,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":2,"totalRatings":1,"averageRating":4.00}},{"courseId":3,"title":"Graphic Design Mastery","description":"Master the art of graphic design with practical projects.","price":129.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":3,"totalRatings":1,"averageRating":5.00}},{"courseId":4,"title":"Full Stack Web Development","description":"Learn to build web applications from scratch using modern technologies.","price":249.99,"courseType":"Online","seatsAvailable":40,"duration":50.00,"categoryId":4,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":4,"categoryName":"Web Development","description":"Courses focusing on front-end and back-end web development."},"userRating":{"courseId":4,"totalRatings":1,"averageRating":5.00}},{"courseId":5,"title":"Ethical Hacking Basics","description":"Introduction to ethical hacking and cybersecurity fundamentals.","price":199.99,"courseType":"Online","seatsAvailable":35,"duration":40.00,"categoryId":5,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":5,"categoryName":"Cybersecurity","description":"Courses covering security practices and ethical hacking."},"userRating":{"courseId":5,"totalRatings":1,"averageRating":4.00}},{"courseId":6,"title":"Agile Project Management","description":"Master the principles of Agile and Scrum.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":6,"instructorId":2,"startDate":null,"endDate":null,"category":{"categoryId":6,"categoryName":"Project Management","description":"Courses on managing projects, teams, and resources effectively."},"userRating":{"courseId":6,"totalRatings":1,"averageRating":5.00}},{"courseId":7,"title":"Digital Marketing Mastery","description":"Become an expert in digital marketing with this comprehensive course.","price":219.99,"courseType":"Online","seatsAvailable":30,"duration":35.00,"categoryId":7,"instructorId":3,"startDate":"2024-11-01T00:00:00","endDate":"2024-12-01T00:00:00","category":{"categoryId":7,"categoryName":"Marketing","description":"Courses focused on digital marketing, SEO, and social media marketing."},"userRating":{"courseId":7,"totalRatings":1,"averageRating":5.00}},{"courseId":8,"title":"Personal Finance Essentials","description":"Learn how to manage your finances and make smart investments.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":8,"instructorId":3,"startDate":null,"endDate":null,"category":{"categoryId":8,"categoryName":"Finance","description":"Courses covering investment, personal finance, and accounting."},"userRating":{"courseId":8,"totalRatings":1,"averageRating":4.00}},{"courseId":9,"title":"Yoga for Beginners","description":"Start your journey to physical and mental wellness with yoga.","price":99.99,"courseType":"Online","seatsAvailable":20,"duration":15.00,"categoryId":9,"instructorId":3,"startDate":"2024-11-01T00:00:00","endDate":"2024-11-15T00:00:00","category":{"categoryId":9,"categoryName":"Health & Fitness","description":"Courses on physical fitness, mental well-being, and nutrition."},"userRating":{"courseId":9,"totalRatings":1,"averageRating":5.00}},{"courseId":10,"title":"Full Stack Web Development","description":"Learn to build complete web applications using HTML, CSS, JavaScript, and backend technologies.","price":249.99,"courseType":"Online","seatsAvailable":75,"duration":60.00,"categoryId":1,"instructorId":1,"startDate":"2024-10-01T00:00:00","endDate":"2024-12-01T00:00:00","category":{"categoryId":1,"categoryName":"Programming","description":"Courses related to software development and programming languages."},"userRating":{"courseId":10,"totalRatings":0,"averageRating":0.00}},{"courseId":11,"title":"Advanced Data Science Techniques","description":"Dive deep into advanced techniques in data science, including deep learning and AI.","price":299.99,"courseType":"Online","seatsAvailable":50,"duration":45.00,"categoryId":2,"instructorId":1,"startDate":"2024-11-01T00:00:00","endDate":"2024-12-31T00:00:00","category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":11,"totalRatings":0,"averageRating":0.00}},{"courseId":12,"title":"UI/UX Design Fundamentals","description":"Learn the essentials of user interface and user experience design.","price":179.99,"courseType":"Offline","seatsAvailable":null,"duration":30.00,"categoryId":3,"instructorId":1,"startDate":"2024-10-15T00:00:00","endDate":"2024-11-15T00:00:00","category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":12,"totalRatings":0,"averageRating":0.00}},{"courseId":13,"title":"Python for Data Analysis","description":"Learn how to use Python for data analysis, visualization, and statistical modeling.","price":159.99,"courseType":"Online","seatsAvailable":60,"duration":35.00,"categoryId":2,"instructorId":1,"startDate":"2024-09-15T00:00:00","endDate":"2024-10-15T00:00:00","category":{"categoryId":2,"categoryName":"Data Science","description":"Courses covering data analysis, machine learning, and AI."},"userRating":{"courseId":13,"totalRatings":0,"averageRating":0.00}},{"courseId":14,"title":"Digital Marketing Masterclass","description":"Comprehensive guide to mastering digital marketing strategies.","price":199.99,"courseType":"Online","seatsAvailable":40,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":"2024-12-01T00:00:00","endDate":"2024-12-31T00:00:00","category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":14,"totalRatings":0,"averageRating":0.00}}]
+2025-11-08 02:57:37.971 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course - 200 null application/json; charset=utf-8 2858.8702ms
+2025-11-08 02:57:47.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course/Category/5 - null null
+2025-11-08 02:57:47.498 +02:00 [INF] Request: GET /api/Course/Category/5
+2025-11-08 02:57:47.502 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.GetByCategory (OnlineCourse.API)'
+2025-11-08 02:57:47.512 +02:00 [INF] Route matched with {action = "GetByCategory", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByCategory(Int32) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:57:47.731 +02:00 [INF] Executed DbCommand (153ms) [Parameters=[@__categoryId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId], [c0].[CategoryName], [c0].[Description], (
+    SELECT COUNT(*)
+    FROM [Review] AS [r]
+    WHERE [c].[CourseId] = [r].[CourseId]) AS [TotalRatings], CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Review] AS [r0]
+        WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+        SELECT AVG(CAST([r1].[Rating] AS float))
+        FROM [Review] AS [r1]
+        WHERE [c].[CourseId] = [r1].[CourseId]))
+    ELSE 0.0
+END AS [AverageRating]
+FROM [Course] AS [c]
+INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+WHERE [c].[CategoryId] = @__categoryId_Value_0
+2025-11-08 02:57:47.740 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[OnlineCourse.Core.Models.CourseModel, OnlineCourse.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-08 02:57:47.743 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.GetByCategory (OnlineCourse.API) in 228.725ms
+2025-11-08 02:57:47.746 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.GetByCategory (OnlineCourse.API)'
+2025-11-08 02:57:47.748 +02:00 [INF] Response: 200: [{"courseId":5,"title":"Ethical Hacking Basics","description":"Introduction to ethical hacking and cybersecurity fundamentals.","price":199.99,"courseType":"Online","seatsAvailable":35,"duration":40.00,"categoryId":5,"instructorId":2,"startDate":"2024-10-01T00:00:00","endDate":"2024-11-30T00:00:00","category":{"categoryId":5,"categoryName":"Cybersecurity","description":"Courses covering security practices and ethical hacking."},"userRating":{"courseId":5,"totalRatings":1,"averageRating":4.00}}]
+2025-11-08 02:57:47.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course/Category/5 - 200 null application/json; charset=utf-8 264.5788ms
+2025-11-08 02:57:55.240 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course/Detail/3 - null null
+2025-11-08 02:57:55.244 +02:00 [INF] Request: GET /api/Course/Detail/3
+2025-11-08 02:57:55.248 +02:00 [INF] Executing endpoint 'OnlineCourse.API.Controllers.CourseController.Get (OnlineCourse.API)'
+2025-11-08 02:57:55.253 +02:00 [INF] Route matched with {action = "Get", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller OnlineCourse.API.Controllers.CourseController (OnlineCourse.API).
+2025-11-08 02:57:55.383 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2025-11-08 02:57:56.031 +02:00 [INF] Executed DbCommand (616ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[CourseId], [t].[Title], [t].[Description], [t].[Price], [t].[CourseType], [t].[SeatsAvailable], [t].[Duration], [t].[CategoryId], [t].[InstructorId], [t].[StartDate], [t].[EndDate], [t].[CategoryId0], [t].[CategoryName], [t].[Description0], [s].[SessionId], [s].[CourseId], [s].[Title], [s].[Description], [s].[VideoUrl], [s].[VideoOrder], [t0].[CourseId], [t0].[UserName], [t0].[Comments], [t0].[Rating], [t0].[ReviewDate], [t0].[ReviewId], [t0].[UserId], [t].[c], [t].[c0]
+FROM (
+    SELECT TOP(1) [c].[CourseId], [c].[Title], [c].[Description], [c].[Price], [c].[CourseType], [c].[SeatsAvailable], [c].[Duration], [c].[CategoryId], [c].[InstructorId], [c].[StartDate], [c].[EndDate], [c0].[CategoryId] AS [CategoryId0], [c0].[CategoryName], [c0].[Description] AS [Description0], (
+        SELECT COUNT(*)
+        FROM [Review] AS [r]
+        WHERE [c].[CourseId] = [r].[CourseId]) AS [c], CASE
+        WHEN EXISTS (
+            SELECT 1
+            FROM [Review] AS [r0]
+            WHERE [c].[CourseId] = [r0].[CourseId]) THEN CONVERT(decimal(18, 2), (
+            SELECT AVG(CAST([r1].[Rating] AS float))
+            FROM [Review] AS [r1]
+            WHERE [c].[CourseId] = [r1].[CourseId]))
+        ELSE 0.0
+    END AS [c0]
+    FROM [Course] AS [c]
+    INNER JOIN [CourseCategory] AS [c0] ON [c].[CategoryId] = [c0].[CategoryId]
+    WHERE [c].[CourseId] = @__courseId_0
+) AS [t]
+LEFT JOIN [SessionDetails] AS [s] ON [t].[CourseId] = [s].[CourseId]
+OUTER APPLY (
+    SELECT [t1].[CourseId], [u].[DisplayName] AS [UserName], [t1].[Comments], [t1].[Rating], [t1].[ReviewDate], [t1].[ReviewId], [u].[UserId]
+    FROM (
+        SELECT TOP(10) [r2].[ReviewId], [r2].[Comments], [r2].[CourseId], [r2].[Rating], [r2].[ReviewDate], [r2].[UserId]
+        FROM [Review] AS [r2]
+        WHERE [t].[CourseId] = [r2].[CourseId]
+        ORDER BY [r2].[Rating] DESC
+    ) AS [t1]
+    INNER JOIN [UserProfile] AS [u] ON [t1].[UserId] = [u].[UserId]
+) AS [t0]
+ORDER BY [t].[CourseId], [t].[CategoryId0], [s].[VideoOrder], [s].[SessionId], [t0].[Rating] DESC, [t0].[ReviewId]
+2025-11-08 02:57:56.044 +02:00 [INF] Executing OkObjectResult, writing value of type 'OnlineCourse.Core.Models.CourseDetailModel'.
+2025-11-08 02:57:56.059 +02:00 [INF] Executed action OnlineCourse.API.Controllers.CourseController.Get (OnlineCourse.API) in 803.7255ms
+2025-11-08 02:57:56.061 +02:00 [INF] Executed endpoint 'OnlineCourse.API.Controllers.CourseController.Get (OnlineCourse.API)'
+2025-11-08 02:57:56.063 +02:00 [INF] Response: 200: {"sessionDetails":[{"sessionId":8,"courseId":3,"title":"Introduction to Graphic Design","description":"Overview of graphic design principles.","videoUrl":"https://www.youtube.com/watch?v=fqI0ToX1nDQ","videoOrder":1},{"sessionId":9,"courseId":3,"title":"Typography and Layout","description":"Learn the importance of typography and layout in design.","videoUrl":"https://www.youtube.com/watch?v=fqI0ToX1nDQ","videoOrder":2},{"sessionId":10,"courseId":3,"title":"Advanced Photoshop Techniques","description":"Master advanced techniques in Adobe Photoshop.","videoUrl":"https://www.youtube.com/watch?v=fqI0ToX1nDQ","videoOrder":3}],"reviews":[{"courseId":3,"userName":"John Doe","comments":"Loved the hands-on projects and practical examples.","rating":5,"reviewDate":"2025-11-07T05:30:48.983"}],"courseId":3,"title":"Graphic Design Mastery","description":"Master the art of graphic design with practical projects.","price":129.99,"courseType":"Offline","seatsAvailable":null,"duration":25.00,"categoryId":3,"instructorId":1,"startDate":null,"endDate":null,"category":{"categoryId":3,"categoryName":"Design","description":"Courses related to graphic design, UX/UI, and creative fields."},"userRating":{"courseId":3,"totalRatings":1,"averageRating":5.00}}
+2025-11-08 02:57:56.065 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course/Detail/3 - 200 null application/json; charset=utf-8 825.4466ms
+2025-11-08 03:06:34.086 +02:00 [INF] Starting up the application
+2025-11-08 03:06:34.408 +02:00 [INF] Application started successfully
+2025-11-08 03:06:34.801 +02:00 [INF] Now listening on: https://localhost:7274
+2025-11-08 03:06:34.806 +02:00 [INF] Now listening on: http://localhost:5069
+2025-11-08 03:06:34.843 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-08 03:06:34.845 +02:00 [INF] Hosting environment: Development
+2025-11-08 03:06:34.847 +02:00 [INF] Content root path: C:\Users\ACER\OneDrive\Desktop\OnlineCourse.API\OnlineCourse.API
+2025-11-08 03:06:35.686 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/index.html - null null
+2025-11-08 03:06:35.836 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/index.html - 200 null text/html;charset=utf-8 161.3041ms
+2025-11-08 03:06:36.053 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-08 03:06:36.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 13.4747ms
+2025-11-08 03:06:36.082 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/_vs/browserLink - null null
+2025-11-08 03:06:36.134 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.8853ms
+2025-11-08 03:06:36.169 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - null null
+2025-11-08 03:06:36.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.942ms
+2025-11-08 03:06:40.949 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7274/api/Course - null null
+2025-11-08 03:06:40.959 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'OnlineCourse.API.Middlewares.RequestBodyLoggingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-08 03:06:40.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7274/api/Course - 500 null text/plain; charset=utf-8 31.7503ms
