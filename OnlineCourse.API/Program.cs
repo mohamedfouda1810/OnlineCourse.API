@@ -74,10 +74,10 @@ namespace OnlineCourse.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                    // تعديل هنا:
+                    c.SwaggerEndpoint("./swagger/v1/swagger.json", "My API V1");
                     c.RoutePrefix = string.Empty;  // علشان يظهر Swagger على الصفحة الرئيسية https://yourdomain/
                 });
-
 
                 app.UseHttpsRedirection();
                 app.UseCors("AllowAngularApp");
